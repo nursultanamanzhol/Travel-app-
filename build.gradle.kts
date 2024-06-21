@@ -1,4 +1,10 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+@file:Suppress("DSL_SCOPE_VIOLATION")
+
+buildscript {
+    dependencies {
+        classpath("com.google.gms:google-services:4.4.2")
+    }
+}
 plugins {
-    id("com.android.application") version "8.1.2" apply false
+    alias(libs.plugins.android.application) apply false
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532920663552",
+    "project_id": "travel-app-d25cd",
+    "storage_bucket": "travel-app-d25cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532920663552:android:83b2122d9619f5759922e5",
+        "android_client_info": {
+          "package_name": "kz.jetpack.travelapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR7penA5IJhGZUglBB4G5PkLX6X2uNV_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
