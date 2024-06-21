@@ -1,8 +1,7 @@
-package kz.jetpack.travelapp;
+package kz.jetpack.travelapp.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import kz.jetpack.travelapp.databinding.ActivityIntroBinding;
 
