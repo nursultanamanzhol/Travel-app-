@@ -1,5 +1,6 @@
 package kz.jetpack.travelapp.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -45,11 +46,10 @@ public class DetailActivity extends BaseActivity {
                 .load(object.getPic())
                 .into(binding.pic);
 
-        binding.addToCartBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Добавить действия для кнопки
-            }
+        binding.addToCartBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(DetailActivity.this, TicketActivity.class);
+            intent.putExtra("object", object);
+            startActivity(intent);
         });
     }
 
