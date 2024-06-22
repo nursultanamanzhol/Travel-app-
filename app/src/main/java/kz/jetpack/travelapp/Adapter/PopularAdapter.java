@@ -1,6 +1,7 @@
 package kz.jetpack.travelapp.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import java.util.ArrayList;
+
+import kz.jetpack.travelapp.Activity.DetailActivity;
 import kz.jetpack.travelapp.Domain.ItemDomain;
 import kz.jetpack.travelapp.databinding.ViewholderPopularBinding;
 
@@ -19,8 +22,13 @@ public class PopularAdapter extends RecyclerView.Adapter<PopularAdapter.Viewhold
     ViewholderPopularBinding binding;
 
     public PopularAdapter(ArrayList<ItemDomain> items) {
-        this.items = items;
+        if (items == null) {
+            this.items = new ArrayList<>();
+        } else {
+            this.items = items;
+        }
     }
+
 
     @NonNull
     @Override
@@ -44,7 +52,9 @@ public class PopularAdapter extends RecyclerView.Adapter<PopularAdapter.Viewhold
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("object", items.get(position));
+                context.startActivity(intent);
             }
         });
     }

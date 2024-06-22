@@ -1,13 +1,19 @@
 package kz.jetpack.travelapp.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
+
+import kz.jetpack.travelapp.Activity.DetailActivity;
 import kz.jetpack.travelapp.Domain.ItemDomain;
 import kz.jetpack.travelapp.databinding.ViewholderRecommendedBinding;
 
@@ -42,7 +48,9 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("object", items.get(position));
+                context.startActivity(intent);
             }
         });
     }
