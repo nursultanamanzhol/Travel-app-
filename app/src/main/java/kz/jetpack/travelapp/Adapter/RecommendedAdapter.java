@@ -4,14 +4,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.bumptech.glide.Glide;
-
 import java.util.ArrayList;
-
 import kz.jetpack.travelapp.Domain.ItemDomain;
 import kz.jetpack.travelapp.databinding.ViewholderRecommendedBinding;
 
@@ -55,6 +51,7 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
     public int getItemCount() {
         return items.size();
     }
+
     public class Viewholder extends RecyclerView.ViewHolder {
 
         public Viewholder(ViewholderRecommendedBinding binding) {
