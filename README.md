@@ -3,7 +3,7 @@
 ## Screenshots
 
 ### Main Screen
-![Main Screen](images/Screenshot_20240623-013513_Travel%20app.jpg)
+![Main Screen](Screenshot_20240623-013513_Travel app.jpg)
 
 ### Location Screen
 ![Location Screen](images/Screenshot_20240623-013518_Travel%20app.jpg)
