@@ -3,7 +3,7 @@
 ## Screenshots
 
 ### Main Screen
-![Main Screen](app/src/main/res/images/Screenshot_20240623-013513_Travel app.jpg)
+![Main Screen](![Screenshot_20240623-013513_Travel app](https://github.com/nursultanamanzhol/Travel-app-/assets/91078998/545fb06f-7221-4760-9912-0584ccac16ee))
 
 ### Location Screen
 ![Location Screen](images/Screenshot_20240623-013518_Travel%20app.jpg)
