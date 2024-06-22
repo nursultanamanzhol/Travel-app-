@@ -2,17 +2,13 @@
 
 ## Screenshots
 
-### Main Screen
-![Main Screen](https://github.com/nursultanamanzhol/Travel-app-/assets/91078998/545fb06f-7221-4760-9912-0584ccac16ee)
+<p align="center">
+  <img src="(https://github.com/nursultanamanzhol/Travel-app-/blob/master/app/src/main/res/images/Screenshot_20240623-013513_Travel%20app.jpg?raw=true)" alt="Main Screen" width="200"/>
+  <img src="images/Screenshot_20240623-013518_Travel%20app.jpg" alt="Location Screen" width="200"/>
+  <img src="images/Screenshot_20240623-013522_Travel%20app.jpg" alt="Detail Screen" width="200"/>
+</p>
 
-### Location Screen
-![Location Screen](images/Screenshot_20240623-013518_Travel%20app.jpg)
-
-### Detail Screen
-![Detail Screen](images/Screenshot_20240623-013522_Travel%20app.jpg)
-
-### Ticket Detail
-![Ticket Detail](images/Screenshot_20240623-013536_Travel%20app.jpg)
-
-### Another Screen
-![Another Screen](images/Screenshot_20240623-013538_Travel%20app.jpg)
+<p align="center">
+  <img src="images/Screenshot_20240623-013536_Travel%20app.jpg" alt="Ticket Detail" width="200"/>
+  <img src="images/Screenshot_20240623-013538_Travel%20app.jpg" alt="Another Screen" width="200"/>
+</p>
